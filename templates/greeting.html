@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title></title>
+          <link rel="stylesheet" href="/static/css/style.css?q={{ time }}">
+    </head>
+    <body>
+        <h1>Oh, hello there!</h1>
+        <p>Greetings, {{newname}}. I'm five-time daytime Emmy nominee Moira Rose. What a surpassingly exotic idea for a poem! Lucky for you, a trained sonneteer like myself will have no issue creating a personalized verse just for you. Are you ready for your {{mood}} rune about {{topic}}? </p>
+        <br></br>
+        <form method="post" action="/poem">
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

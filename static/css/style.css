@@ -1,0 +1,20 @@
+p {
+  font-family: 'Zilla Slab', serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: 'Zilla Slab', serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 35px;
+  color: blue;
+}
+
+.container {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
