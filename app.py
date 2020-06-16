@@ -3,6 +3,7 @@
 from flask import Flask, request, redirect, render_template
 import model
 from random import randint
+from datetime import datetime
 
 
 # -- Initialization section --
